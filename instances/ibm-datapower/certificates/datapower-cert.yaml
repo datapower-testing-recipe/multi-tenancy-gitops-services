@@ -1,6 +1,8 @@
 kind: Secret
 apiVersion: v1
 metadata:
+  annotations: 
+    argocd.argoproj.io/sync-wave: "305"
   name: datapower-cert
   namespace: datapower
   uid: e442f39e-296f-4366-a894-e5590b04df37
